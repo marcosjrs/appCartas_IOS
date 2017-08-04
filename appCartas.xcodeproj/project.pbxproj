@@ -16,6 +16,7 @@
 		55DF93B61F34D100003D1825 /* appCartasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DF93B51F34D100003D1825 /* appCartasTests.m */; };
 		55DF93C11F34D100003D1825 /* appCartasUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DF93C01F34D100003D1825 /* appCartasUITests.m */; };
 		55DF93D31F34D256003D1825 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DF93D21F34D256003D1825 /* Card.m */; };
+		55DF93D61F34DD12003D1825 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DF93D51F34DD12003D1825 /* Deck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		55DF93C21F34D100003D1825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55DF93D11F34D256003D1825 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
 		55DF93D21F34D256003D1825 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		55DF93D41F34DD12003D1825 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		55DF93D51F34DD12003D1825 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				55DF939B1F34D100003D1825 /* Supporting Files */,
 				55DF93D11F34D256003D1825 /* Card.h */,
 				55DF93D21F34D256003D1825 /* Card.m */,
+				55DF93D41F34DD12003D1825 /* Deck.h */,
+				55DF93D51F34DD12003D1825 /* Deck.m */,
 			);
 			path = appCartas;
 			sourceTree = "<group>";
@@ -278,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55DF93D61F34DD12003D1825 /* Deck.m in Sources */,
 				55DF93A31F34D100003D1825 /* ViewController.m in Sources */,
 				55DF93A01F34D100003D1825 /* AppDelegate.m in Sources */,
 				55DF939D1F34D100003D1825 /* main.m in Sources */,
