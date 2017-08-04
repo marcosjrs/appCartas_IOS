@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55DF939D1F34D100003D1825 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DF939C1F34D100003D1825 /* main.m */; };
+		55DF93A01F34D100003D1825 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DF939F1F34D100003D1825 /* AppDelegate.m */; };
+		55DF93A31F34D100003D1825 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DF93A21F34D100003D1825 /* ViewController.m */; };
+		55DF93A61F34D100003D1825 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55DF93A41F34D100003D1825 /* Main.storyboard */; };
+		55DF93A81F34D100003D1825 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55DF93A71F34D100003D1825 /* Assets.xcassets */; };
+		55DF93AB1F34D100003D1825 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55DF93A91F34D100003D1825 /* LaunchScreen.storyboard */; };
+		55DF93B61F34D100003D1825 /* appCartasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DF93B51F34D100003D1825 /* appCartasTests.m */; };
+		55DF93C11F34D100003D1825 /* appCartasUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DF93C01F34D100003D1825 /* appCartasUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55DF93B21F34D100003D1825 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55DF93901F34D100003D1825 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55DF93971F34D100003D1825;
+			remoteInfo = appCartas;
+		};
+		55DF93BD1F34D100003D1825 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55DF93901F34D100003D1825 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55DF93971F34D100003D1825;
+			remoteInfo = appCartas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55DF93981F34D100003D1825 /* appCartas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appCartas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55DF939C1F34D100003D1825 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55DF939E1F34D100003D1825 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		55DF939F1F34D100003D1825 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55DF93A11F34D100003D1825 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		55DF93A21F34D100003D1825 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		55DF93A51F34D100003D1825 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55DF93A71F34D100003D1825 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55DF93AA1F34D100003D1825 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55DF93AC1F34D100003D1825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55DF93B11F34D100003D1825 /* appCartasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appCartasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55DF93B51F34D100003D1825 /* appCartasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appCartasTests.m; sourceTree = "<group>"; };
+		55DF93B71F34D100003D1825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55DF93BC1F34D100003D1825 /* appCartasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appCartasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55DF93C01F34D100003D1825 /* appCartasUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appCartasUITests.m; sourceTree = "<group>"; };
+		55DF93C21F34D100003D1825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55DF93951F34D100003D1825 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DF93AE1F34D100003D1825 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DF93B91F34D100003D1825 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55DF938F1F34D100003D1825 = {
+			isa = PBXGroup;
+			children = (
+				55DF939A1F34D100003D1825 /* appCartas */,
+				55DF93B41F34D100003D1825 /* appCartasTests */,
+				55DF93BF1F34D100003D1825 /* appCartasUITests */,
+				55DF93991F34D100003D1825 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55DF93991F34D100003D1825 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55DF93981F34D100003D1825 /* appCartas.app */,
+				55DF93B11F34D100003D1825 /* appCartasTests.xctest */,
+				55DF93BC1F34D100003D1825 /* appCartasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55DF939A1F34D100003D1825 /* appCartas */ = {
+			isa = PBXGroup;
+			children = (
+				55DF939E1F34D100003D1825 /* AppDelegate.h */,
+				55DF939F1F34D100003D1825 /* AppDelegate.m */,
+				55DF93A11F34D100003D1825 /* ViewController.h */,
+				55DF93A21F34D100003D1825 /* ViewController.m */,
+				55DF93A41F34D100003D1825 /* Main.storyboard */,
+				55DF93A71F34D100003D1825 /* Assets.xcassets */,
+				55DF93A91F34D100003D1825 /* LaunchScreen.storyboard */,
+				55DF93AC1F34D100003D1825 /* Info.plist */,
+				55DF939B1F34D100003D1825 /* Supporting Files */,
+			);
+			path = appCartas;
+			sourceTree = "<group>";
+		};
+		55DF939B1F34D100003D1825 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55DF939C1F34D100003D1825 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55DF93B41F34D100003D1825 /* appCartasTests */ = {
+			isa = PBXGroup;
+			children = (
+				55DF93B51F34D100003D1825 /* appCartasTests.m */,
+				55DF93B71F34D100003D1825 /* Info.plist */,
+			);
+			path = appCartasTests;
+			sourceTree = "<group>";
+		};
+		55DF93BF1F34D100003D1825 /* appCartasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55DF93C01F34D100003D1825 /* appCartasUITests.m */,
+				55DF93C21F34D100003D1825 /* Info.plist */,
+			);
+			path = appCartasUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55DF93971F34D100003D1825 /* appCartas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55DF93C51F34D100003D1825 /* Build configuration list for PBXNativeTarget "appCartas" */;
+			buildPhases = (
+				55DF93941F34D100003D1825 /* Sources */,
+				55DF93951F34D100003D1825 /* Frameworks */,
+				55DF93961F34D100003D1825 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = appCartas;
+			productName = appCartas;
+			productReference = 55DF93981F34D100003D1825 /* appCartas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55DF93B01F34D100003D1825 /* appCartasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55DF93C81F34D100003D1825 /* Build configuration list for PBXNativeTarget "appCartasTests" */;
+			buildPhases = (
+				55DF93AD1F34D100003D1825 /* Sources */,
+				55DF93AE1F34D100003D1825 /* Frameworks */,
+				55DF93AF1F34D100003D1825 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55DF93B31F34D100003D1825 /* PBXTargetDependency */,
+			);
+			name = appCartasTests;
+			productName = appCartasTests;
+			productReference = 55DF93B11F34D100003D1825 /* appCartasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55DF93BB1F34D100003D1825 /* appCartasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55DF93CB1F34D100003D1825 /* Build configuration list for PBXNativeTarget "appCartasUITests" */;
+			buildPhases = (
+				55DF93B81F34D100003D1825 /* Sources */,
+				55DF93B91F34D100003D1825 /* Frameworks */,
+				55DF93BA1F34D100003D1825 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55DF93BE1F34D100003D1825 /* PBXTargetDependency */,
+			);
+			name = appCartasUITests;
+			productName = appCartasUITests;
+			productReference = 55DF93BC1F34D100003D1825 /* appCartasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55DF93901F34D100003D1825 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Marcos JRS";
+				TargetAttributes = {
+					55DF93971F34D100003D1825 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					55DF93B01F34D100003D1825 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 55DF93971F34D100003D1825;
+					};
+					55DF93BB1F34D100003D1825 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 55DF93971F34D100003D1825;
+					};
+				};
+			};
+			buildConfigurationList = 55DF93931F34D100003D1825 /* Build configuration list for PBXProject "appCartas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55DF938F1F34D100003D1825;
+			productRefGroup = 55DF93991F34D100003D1825 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55DF93971F34D100003D1825 /* appCartas */,
+				55DF93B01F34D100003D1825 /* appCartasTests */,
+				55DF93BB1F34D100003D1825 /* appCartasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55DF93961F34D100003D1825 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DF93AB1F34D100003D1825 /* LaunchScreen.storyboard in Resources */,
+				55DF93A81F34D100003D1825 /* Assets.xcassets in Resources */,
+				55DF93A61F34D100003D1825 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DF93AF1F34D100003D1825 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DF93BA1F34D100003D1825 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55DF93941F34D100003D1825 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DF93A31F34D100003D1825 /* ViewController.m in Sources */,
+				55DF93A01F34D100003D1825 /* AppDelegate.m in Sources */,
+				55DF939D1F34D100003D1825 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DF93AD1F34D100003D1825 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DF93B61F34D100003D1825 /* appCartasTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DF93B81F34D100003D1825 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DF93C11F34D100003D1825 /* appCartasUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55DF93B31F34D100003D1825 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55DF93971F34D100003D1825 /* appCartas */;
+			targetProxy = 55DF93B21F34D100003D1825 /* PBXContainerItemProxy */;
+		};
+		55DF93BE1F34D100003D1825 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55DF93971F34D100003D1825 /* appCartas */;
+			targetProxy = 55DF93BD1F34D100003D1825 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55DF93A41F34D100003D1825 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55DF93A51F34D100003D1825 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55DF93A91F34D100003D1825 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55DF93AA1F34D100003D1825 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55DF93C31F34D100003D1825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		55DF93C41F34D100003D1825 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55DF93C61F34D100003D1825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = appCartas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcosjrs.appCartas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		55DF93C71F34D100003D1825 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = appCartas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcosjrs.appCartas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		55DF93C91F34D100003D1825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = appCartasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcosjrs.appCartasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appCartas.app/appCartas";
+			};
+			name = Debug;
+		};
+		55DF93CA1F34D100003D1825 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = appCartasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcosjrs.appCartasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appCartas.app/appCartas";
+			};
+			name = Release;
+		};
+		55DF93CC1F34D100003D1825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = appCartasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcosjrs.appCartasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = appCartas;
+			};
+			name = Debug;
+		};
+		55DF93CD1F34D100003D1825 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = appCartasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcosjrs.appCartasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = appCartas;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55DF93931F34D100003D1825 /* Build configuration list for PBXProject "appCartas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55DF93C31F34D100003D1825 /* Debug */,
+				55DF93C41F34D100003D1825 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55DF93C51F34D100003D1825 /* Build configuration list for PBXNativeTarget "appCartas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55DF93C61F34D100003D1825 /* Debug */,
+				55DF93C71F34D100003D1825 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		55DF93C81F34D100003D1825 /* Build configuration list for PBXNativeTarget "appCartasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55DF93C91F34D100003D1825 /* Debug */,
+				55DF93CA1F34D100003D1825 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		55DF93CB1F34D100003D1825 /* Build configuration list for PBXNativeTarget "appCartasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55DF93CC1F34D100003D1825 /* Debug */,
+				55DF93CD1F34D100003D1825 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55DF93901F34D100003D1825 /* Project object */;
+}
