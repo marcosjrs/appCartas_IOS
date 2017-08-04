@@ -17,6 +17,7 @@
 		55DF93C11F34D100003D1825 /* appCartasUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DF93C01F34D100003D1825 /* appCartasUITests.m */; };
 		55DF93D31F34D256003D1825 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DF93D21F34D256003D1825 /* Card.m */; };
 		55DF93D61F34DD12003D1825 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DF93D51F34DD12003D1825 /* Deck.m */; };
+		55DF93D91F34E4D5003D1825 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DF93D81F34E4D5003D1825 /* PlayingCard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		55DF93D21F34D256003D1825 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
 		55DF93D41F34DD12003D1825 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
 		55DF93D51F34DD12003D1825 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		55DF93D71F34E4D5003D1825 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		55DF93D81F34E4D5003D1825 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				55DF93D21F34D256003D1825 /* Card.m */,
 				55DF93D41F34DD12003D1825 /* Deck.h */,
 				55DF93D51F34DD12003D1825 /* Deck.m */,
+				55DF93D71F34E4D5003D1825 /* PlayingCard.h */,
+				55DF93D81F34E4D5003D1825 /* PlayingCard.m */,
 			);
 			path = appCartas;
 			sourceTree = "<group>";
@@ -283,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55DF93D91F34E4D5003D1825 /* PlayingCard.m in Sources */,
 				55DF93D61F34DD12003D1825 /* Deck.m in Sources */,
 				55DF93A31F34D100003D1825 /* ViewController.m in Sources */,
 				55DF93A01F34D100003D1825 /* AppDelegate.m in Sources */,
