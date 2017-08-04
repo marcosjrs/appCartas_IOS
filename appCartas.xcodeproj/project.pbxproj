@@ -15,6 +15,7 @@
 		55DF93AB1F34D100003D1825 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55DF93A91F34D100003D1825 /* LaunchScreen.storyboard */; };
 		55DF93B61F34D100003D1825 /* appCartasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DF93B51F34D100003D1825 /* appCartasTests.m */; };
 		55DF93C11F34D100003D1825 /* appCartasUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DF93C01F34D100003D1825 /* appCartasUITests.m */; };
+		55DF93D31F34D256003D1825 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DF93D21F34D256003D1825 /* Card.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		55DF93BC1F34D100003D1825 /* appCartasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appCartasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55DF93C01F34D100003D1825 /* appCartasUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appCartasUITests.m; sourceTree = "<group>"; };
 		55DF93C21F34D100003D1825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55DF93D11F34D256003D1825 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		55DF93D21F34D256003D1825 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				55DF93A91F34D100003D1825 /* LaunchScreen.storyboard */,
 				55DF93AC1F34D100003D1825 /* Info.plist */,
 				55DF939B1F34D100003D1825 /* Supporting Files */,
+				55DF93D11F34D256003D1825 /* Card.h */,
+				55DF93D21F34D256003D1825 /* Card.m */,
 			);
 			path = appCartas;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 				55DF93A31F34D100003D1825 /* ViewController.m in Sources */,
 				55DF93A01F34D100003D1825 /* AppDelegate.m in Sources */,
 				55DF939D1F34D100003D1825 /* main.m in Sources */,
+				55DF93D31F34D256003D1825 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
