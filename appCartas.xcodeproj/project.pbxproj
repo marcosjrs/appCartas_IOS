@@ -18,6 +18,7 @@
 		55DF93D31F34D256003D1825 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DF93D21F34D256003D1825 /* Card.m */; };
 		55DF93D61F34DD12003D1825 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DF93D51F34DD12003D1825 /* Deck.m */; };
 		55DF93D91F34E4D5003D1825 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DF93D81F34E4D5003D1825 /* PlayingCard.m */; };
+		55DF93DC1F34F203003D1825 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DF93DB1F34F203003D1825 /* PlayingCardDeck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		55DF93D51F34DD12003D1825 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
 		55DF93D71F34E4D5003D1825 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
 		55DF93D81F34E4D5003D1825 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		55DF93DA1F34F203003D1825 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		55DF93DB1F34F203003D1825 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 				55DF93D51F34DD12003D1825 /* Deck.m */,
 				55DF93D71F34E4D5003D1825 /* PlayingCard.h */,
 				55DF93D81F34E4D5003D1825 /* PlayingCard.m */,
+				55DF93DA1F34F203003D1825 /* PlayingCardDeck.h */,
+				55DF93DB1F34F203003D1825 /* PlayingCardDeck.m */,
 			);
 			path = appCartas;
 			sourceTree = "<group>";
@@ -292,6 +297,7 @@
 				55DF93D61F34DD12003D1825 /* Deck.m in Sources */,
 				55DF93A31F34D100003D1825 /* ViewController.m in Sources */,
 				55DF93A01F34D100003D1825 /* AppDelegate.m in Sources */,
+				55DF93DC1F34F203003D1825 /* PlayingCardDeck.m in Sources */,
 				55DF939D1F34D100003D1825 /* main.m in Sources */,
 				55DF93D31F34D256003D1825 /* Card.m in Sources */,
 			);
@@ -525,6 +531,7 @@
 				55DF93C71F34D100003D1825 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55DF93C81F34D100003D1825 /* Build configuration list for PBXNativeTarget "appCartasTests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +540,7 @@
 				55DF93CA1F34D100003D1825 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55DF93CB1F34D100003D1825 /* Build configuration list for PBXNativeTarget "appCartasUITests" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +549,7 @@
 				55DF93CD1F34D100003D1825 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
