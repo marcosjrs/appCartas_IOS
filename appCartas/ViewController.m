@@ -7,14 +7,29 @@
 //
 
 #import "ViewController.h"
+#import "Deck.h"
+#import "PlayingCardDeck.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *flipsLabel;
 @property (nonatomic) int flipCount; //Numero de vueltas. Utiliza propiedad, para utilizar el setter para modificar el label...
+@property (strong, nonatomic) Deck *deck;
 
 @end
 
 @implementation ViewController
+
+//Instanciación perezosa, mediante un get (pedimos un deck y sino existe lo instancia de PlayingCardDeck)
+- (Deck *)deck
+{
+    if(!_deck) _deck = [self createDeck];
+    return _deck;
+}
+
+-(Deck *) createDeck
+{
+    return [[PlayingCardDeck alloc] init];
+}
 
 
 -(void) setFlipCount:(int)flipCount{
@@ -32,9 +47,12 @@
     //Ahora cambiaremos el titulo, ya que antes le dimos la "vuelta"
     [sender setTitle:@"" forState:UIControlStateNormal];
     }else{
-        UIImage *cardImage = [UIImage imageNamed:@"cardfront"];
-        [sender setBackgroundImage:cardImage forState:UIControlStateNormal];
-        [sender setTitle:@"A♣︎" forState:UIControlStateNormal];
+        Card *randomCard = [self.deck drawRandomCard];
+        if(randomCard){
+            UIImage *cardImage = [UIImage imageNamed:@"cardfront"];
+            [sender setBackgroundImage:cardImage forState:UIControlStateNormal];
+            [sender setTitle:randomCard.contents forState:UIControlStateNormal];
+        }
         
     }
     

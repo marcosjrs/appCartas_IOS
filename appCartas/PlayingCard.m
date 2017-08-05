@@ -53,7 +53,7 @@
 
 //Método de clase que devuelve el numero de la figura más alta
 +(NSUInteger) maxRank{
-    return [[PlayingCard rankStrings] count];
+    return [[PlayingCard rankStrings] count] - 1;
 }
 
 
