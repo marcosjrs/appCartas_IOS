@@ -122,14 +122,7 @@
 				55DF93A91F34D100003D1825 /* LaunchScreen.storyboard */,
 				55DF93AC1F34D100003D1825 /* Info.plist */,
 				55DF939B1F34D100003D1825 /* Supporting Files */,
-				55DF93D11F34D256003D1825 /* Card.h */,
-				55DF93D21F34D256003D1825 /* Card.m */,
-				55DF93D41F34DD12003D1825 /* Deck.h */,
-				55DF93D51F34DD12003D1825 /* Deck.m */,
-				55DF93D71F34E4D5003D1825 /* PlayingCard.h */,
-				55DF93D81F34E4D5003D1825 /* PlayingCard.m */,
-				55DF93DA1F34F203003D1825 /* PlayingCardDeck.h */,
-				55DF93DB1F34F203003D1825 /* PlayingCardDeck.m */,
+				55DF93DE1F35B8A9003D1825 /* Model */,
 			);
 			path = appCartas;
 			sourceTree = "<group>";
@@ -158,6 +151,21 @@
 				55DF93C21F34D100003D1825 /* Info.plist */,
 			);
 			path = appCartasUITests;
+			sourceTree = "<group>";
+		};
+		55DF93DE1F35B8A9003D1825 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				55DF93D41F34DD12003D1825 /* Deck.h */,
+				55DF93D51F34DD12003D1825 /* Deck.m */,
+				55DF93D71F34E4D5003D1825 /* PlayingCard.h */,
+				55DF93D81F34E4D5003D1825 /* PlayingCard.m */,
+				55DF93DA1F34F203003D1825 /* PlayingCardDeck.h */,
+				55DF93DB1F34F203003D1825 /* PlayingCardDeck.m */,
+				55DF93D11F34D256003D1825 /* Card.h */,
+				55DF93D21F34D256003D1825 /* Card.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
