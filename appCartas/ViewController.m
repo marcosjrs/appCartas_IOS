@@ -9,22 +9,25 @@
 #import "ViewController.h"
 #import "Deck.h"
 #import "PlayingCardDeck.h"
+#import "CardMatchingGame.h"
 
 @interface ViewController ()
-@property (weak, nonatomic) IBOutlet UILabel *flipsLabel;
-@property (nonatomic) int flipCount; //Numero de vueltas. Utiliza propiedad, para utilizar el setter para modificar el label...
-@property (strong, nonatomic) Deck *deck;
+@property (strong, nonatomic) CardMatchingGame *game;
+@property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *cardButtons;
+@property (weak, nonatomic) IBOutlet UILabel *scoreLabel;
 
 @end
 
 @implementation ViewController
 
-//Instanciación perezosa, mediante un get (pedimos un deck y sino existe lo instancia de PlayingCardDeck)
-- (Deck *)deck
+-(CardMatchingGame *)game
 {
-    if(!_deck) _deck = [self createDeck];
-    return _deck;
+    if(!_game)_game = [ [CardMatchingGame alloc]
+                       initWithCardCount:[self.cardButtons count]
+                       usingDeck: [self createDeck]];
+    return _game;
 }
+
 
 -(Deck *) createDeck
 {
@@ -32,32 +35,36 @@
 }
 
 
--(void) setFlipCount:(int)flipCount{
-    _flipCount = flipCount;
-    self.flipsLabel.text = [NSString stringWithFormat:@"Giros: %d",self.flipCount]; //utilizamos el getter, por si en algún momento se quisiera controlar...
+- (IBAction)touchCardButton:(UIButton *)sender {
+    //recogemos el indice de la carta dentro del array cardButtons
+    NSUInteger choseButtonIndex = [self.cardButtons indexOfObject:sender];
+    [self.game chooseCardAtIndex:choseButtonIndex];
+    [self updateUI];
 }
 
-- (IBAction)touchCardButton:(UIButton *)sender {
-    //La idea es el efecto de darle la vuelta cada vez que se toque. Por un lado tendrá el texto de la carta y por el otro no tendrá texto y tendrá el logo. Por tanto para saber si está dado la vuelta podemos mirar si tiene texto o no
+- (void) updateUI{
     
-    if([sender.currentTitle length]){
-    //Recuperamos la imagen que le vamos establecer al botón pulsado
-    UIImage *cardImage = [UIImage imageNamed:@"cardback"];
-    [sender setBackgroundImage:cardImage forState:UIControlStateNormal];
-    //Ahora cambiaremos el titulo, ya que antes le dimos la "vuelta"
-    [sender setTitle:@"" forState:UIControlStateNormal];
-    }else{
-        Card *randomCard = [self.deck drawRandomCard];
-        if(randomCard){
-            UIImage *cardImage = [UIImage imageNamed:@"cardfront"];
-            [sender setBackgroundImage:cardImage forState:UIControlStateNormal];
-            [sender setTitle:randomCard.contents forState:UIControlStateNormal];
-        }
-        
+    for(UIButton *cardButton in self.cardButtons){
+        NSUInteger cardButtonIndex = [self.cardButtons indexOfObject:cardButton];
+        Card *card =[self.game cardAtIndex:cardButtonIndex];
+        [cardButton setTitle:[self titleForCard:card] forState:UIControlStateNormal];
+        [cardButton setBackgroundImage:[self backgroundImageForCard:card] forState:UIControlStateNormal];
+        cardButton.enabled = !card.isMatched;// si está "soluccionada" se deshabilita
+        self.scoreLabel.text = [NSString stringWithFormat:@"Score: %ld", self.game.score];
     }
     
-    self.flipCount++; //utilizando el setter
 }
 
+//Si está seleccionada devuelve el contents de la carta, sino ""
+-(NSString * ) titleForCard:(Card *) card
+{
+    return card.isChoosen ? card.contents :@"";
+}
+
+//Devuelve "la vuelta" de la carta, según está seleccionada o no.
+- (UIImage *) backgroundImageForCard:(Card *) card
+{
+    return [UIImage imageNamed:card.isChoosen? @"cardfront":@"cardback" ];
+}
 
 @end

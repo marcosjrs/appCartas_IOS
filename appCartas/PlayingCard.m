@@ -56,6 +56,22 @@
     return [[PlayingCard rankStrings] count] - 1;
 }
 
+//Matchea con figura -> 4 puntos, si matchea con palo -> 1 punto, si no matchea -> 0
+-(int) match:(NSArray *)othercards{
+    int score = 0;//por defecto no es es igual (no matchea)
+    if([othercards count] == 1){
+        PlayingCard *otherCard = [othercards firstObject];
+        if(otherCard.rank == self.rank){
+            score =4;// tiene la misma figura, por   tanto machea con cuatro puntos
+
+        }else if([otherCard.suit isEqualToString:self.suit])
+        {
+            score=1; // tiene el mismo palo, por   tanto machea con un punto
+        }
+    }
+    
+    return score;
+}
 
 
 

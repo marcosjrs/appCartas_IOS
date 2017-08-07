@@ -19,6 +19,7 @@
 		55DF93D61F34DD12003D1825 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DF93D51F34DD12003D1825 /* Deck.m */; };
 		55DF93D91F34E4D5003D1825 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DF93D81F34E4D5003D1825 /* PlayingCard.m */; };
 		55DF93DC1F34F203003D1825 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DF93DB1F34F203003D1825 /* PlayingCardDeck.m */; };
+		55DF93E11F377F38003D1825 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DF93E01F377F38003D1825 /* CardMatchingGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		55DF93D81F34E4D5003D1825 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
 		55DF93DA1F34F203003D1825 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
 		55DF93DB1F34F203003D1825 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
+		55DF93DF1F377F38003D1825 /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardMatchingGame.h; sourceTree = "<group>"; };
+		55DF93E01F377F38003D1825 /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardMatchingGame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +159,8 @@
 		55DF93DE1F35B8A9003D1825 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				55DF93DF1F377F38003D1825 /* CardMatchingGame.h */,
+				55DF93E01F377F38003D1825 /* CardMatchingGame.m */,
 				55DF93D41F34DD12003D1825 /* Deck.h */,
 				55DF93D51F34DD12003D1825 /* Deck.m */,
 				55DF93D71F34E4D5003D1825 /* PlayingCard.h */,
@@ -305,6 +310,7 @@
 				55DF93D61F34DD12003D1825 /* Deck.m in Sources */,
 				55DF93A31F34D100003D1825 /* ViewController.m in Sources */,
 				55DF93A01F34D100003D1825 /* AppDelegate.m in Sources */,
+				55DF93E11F377F38003D1825 /* CardMatchingGame.m in Sources */,
 				55DF93DC1F34F203003D1825 /* PlayingCardDeck.m in Sources */,
 				55DF939D1F34D100003D1825 /* main.m in Sources */,
 				55DF93D31F34D256003D1825 /* Card.m in Sources */,
