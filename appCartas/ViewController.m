@@ -22,9 +22,7 @@
 
 -(CardMatchingGame *)game
 {
-    if(!_game)_game = [ [CardMatchingGame alloc]
-                       initWithCardCount:[self.cardButtons count]
-                       usingDeck: [self createDeck]];
+    if(!_game)_game = [ [CardMatchingGame alloc] initWithCardCount:[self.cardButtons count] usingDeck: [self createDeck]];
     return _game;
 }
 
@@ -33,6 +31,14 @@
 {
     return [[PlayingCardDeck alloc] init];
 }
+
+
+- (IBAction)resetGame:(id)sender {
+    _game = [ [CardMatchingGame alloc] initWithCardCount:[self.cardButtons count] usingDeck: [self createDeck]];
+    [self updateUI];
+    
+}
+
 
 
 - (IBAction)touchCardButton:(UIButton *)sender {

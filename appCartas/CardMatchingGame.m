@@ -30,6 +30,8 @@
             Card *card = [deck drawRandomCard];
             if(card){
                 [self.cards addObject:card];
+                card.chosen = NO;
+                card.matched = NO;
             } else {
                 self = nil;
                 break;
@@ -39,6 +41,11 @@
     }
     
     return self;
+}
+
+-(void) reset {
+    
+
 }
 
 - (Card *) cardAtIndex:(NSUInteger)index
