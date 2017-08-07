@@ -48,7 +48,7 @@
 
 //Método de clase que devuelve las figuras de la baraja
 +(NSArray *) rankStrings{
-    return @[@"?",@"A",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"9",@"10", @"J",@"Q",@"K"];
+    return @[@"?",@"A",@"J",@"Q",@"K"];
 }
 
 //Método de clase que devuelve el numero de la figura más alta
